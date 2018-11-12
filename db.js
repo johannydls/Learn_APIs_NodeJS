@@ -40,7 +40,7 @@ module.exports = app => {
          * para garantir o relacionamento correto entre os modelos.
          */
         Object.keys(db.models).forEach(key => {
-            db.models[key].associate(db.models);
+            db.models[key].options.classMethods.associate(db.models);
         });
     }
 
