@@ -27,7 +27,7 @@
     "jwt-simple": "^0.5.5",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
-    "sequelize": "^4.41.1",
+    "sequelize": "^5.15.1",
     "sqlite3": "^4.0.4"
   },
   "devDependencies": {
